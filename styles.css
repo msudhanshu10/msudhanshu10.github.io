@@ -442,6 +442,56 @@ section h2::after {
     color: #4b5563;
 }
 
+/* References Section */
+.references {
+    background-color: #ffffff;
+}
+
+.references-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.reference-item {
+    background: #f9fafb;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #3b82f6;
+}
+
+.reference-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+}
+
+.reference-item h3 {
+    font-size: 1.3rem;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.reference-item h3 a {
+    color: #1f2937;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.reference-item h3 a:hover {
+    color: #3b82f6;
+}
+
+.reference-item p {
+    color: #6b7280;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+
 /* Contact Section */
 .contact {
     background-color: #f9fafb;
